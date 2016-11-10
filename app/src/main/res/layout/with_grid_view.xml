@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/linear_g"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp">
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/gvImgV"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        fresco:roundAsCircle="true"
+        fresco:roundedCornerRadius="180dp"
+        fresco:actualImageScaleType="focusCrop"
+        fresco:placeholderImage="@mipmap/gerenzhongxin"
+        fresco:placeholderImageScaleType="fitCenter"
+        />
+    <TextView
+        android:id="@+id/gvTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="房车展示"/>
+</LinearLayout>
